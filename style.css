@@ -1,0 +1,101 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+    background-color:#fff;
+    color: #151F2B;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight:300;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+
+
+.section-about{
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(landing3.png);
+    background-size:auto;
+    height:100vh;
+    background-color:#151F2B;
+    overflow-x:hidden;
+    max-width:100%;
+
+    
+}
+
+
+.main-text-box-about{
+    position:absolute;
+    width:1140px;
+    top:53%;
+    left:60%;
+    transform:translate(-50%,-40%);
+    color:#fff;
+    font-size:100px;
+ 
+}
+
+.row{
+    max-width:1140px;
+    margin: 0 auto;
+
+}
+
+
+.main-nav{
+    float:right;
+    list-style:none;
+    margin-top:50px;
+
+}
+
+.main-nav li{
+    display:inline-block;
+    margin-left:40px;
+}
+
+.logo{
+    height:300px;
+    width:auto;
+    float:left;
+    margin-left:-150px;
+    margin-top:-60px;
+    
+
+    
+}
+.main-nav li a:link, 
+.main-nav li a:visited {
+    padding:8px 0;
+    text-decoration: none;
+    color:#fff;
+    font-size:110%;
+    border-bottom:2px solid #50C878;
+    transition: border-bottom 0.2s;
+
+}
+.main-nav li a:hover, 
+.main-nav li a:active {
+    border-bottom:2px solid #50C878;
+    color:#50C878;
+
+
+}
+
+/*---------------------------------*/
+/* About */
+/*---------------------------------*/
+
+.section-personal{
+    background-color:#151F2B;
+    background-size:cover;
+    min-height:100vh;
+        
+}
